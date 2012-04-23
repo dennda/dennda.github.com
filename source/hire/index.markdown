@@ -10,7 +10,7 @@ I am available for hire. Here are some of the key points you should know:
 
  * I hold a Master's of Science degree (with honors) in *Computational Visualistics*{% fn_ref 1 %}.
  * My current focus is on developing iOS apps (preferably native).
- * Experience working with various different technologies: See past work.
+ * Experience working with various different technologies: See some of my [past work](/projects).
  * Firm grasp of English and German, as well as collaboration technologies (git, svn, hg, etc).
  * I strongly prefer freelance jobs, unless you're Apple, Google, or strike my personal interest and compensate well.
 
