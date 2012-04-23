@@ -72,7 +72,9 @@ a {
 }
 
 html {
-  background: $page-bg image-url('line-tile.png') top left;
+  // Disable BG as that causes some moiree effects on my crappy screen
+  // background: $page-bg image-url('line-tile.png') top left;
+  background: #252525;
 }
 body {
   > div {
