@@ -19,9 +19,9 @@ For a client in California, I created an iOS app for medical classrooms.
 It performs real-time, three-dimensional rendering of medical volume data (CT, MRI) and allows for extensive
 digital interactivity between multiple instances of the app on the network (students and teachers are all equipped with iPads).
 
-{% img /projects/interface.png %}
-{% img /projects/users.png %}
-{% img /projects/classroom.jpg %}
+{% img /portfolio/interface.png %}
+{% img /portfolio/users.png %}
+{% img /portfolio/classroom.jpg %}
 
 
 Copyright 2012 Loma Linda University. Patent pending. Soon to be on the AppStore.
@@ -42,11 +42,11 @@ The input to the program is a diffusion MRI scan of a person's brain. You then s
 e.g. when planning a surgical removal of a tumor, in which you don't want to damage brain nerves that are invisible once you 'cut a patient open'.
 
 #### Before
-{% img /projects/primitive_fibers.png %}
+{% img /portfolio/primitive_fibers.png %}
 
 #### After
-{% img /projects/nice_fibers.png %}
-{% img /projects/nice_fibers_ao.png %}
+{% img /portfolio/nice_fibers.png %}
+{% img /portfolio/nice_fibers_ao.png %}
 
 I have co-authored two papers on this and related visualization techniques:
 
@@ -64,7 +64,7 @@ It allows medical data to be displayed on custom multi-touch installations.
 This can be used in medical meetings, or for doctors to explain and demonstrate things to patients.
 The project was submitted to a CompVis competition and was awarded the first prize (30 projects total).
 
-{% img /projects/mark_bonetouch.JPG %}
+{% img /portfolio/mark_bonetouch.JPG %}
 <iframe src="http://player.vimeo.com/video/13282333?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="200" height="112" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 
