@@ -26,6 +26,16 @@ digital interactivity between multiple instances of the app on the network (stud
 
 Copyright 2012 Loma Linda University. Patent pending. Soon to be on the AppStore.
 
+
+#### Taposé
+
+Zanther Inc. develops the initially crowd-funded iPad application <a href="http://tapose.com">Taposé</a>.
+Originally developed by a Russian company, the code base grew to a massive size over time.
+I was recently contracted to help fix some of the lower-level issues and to make the app more usable on the original iPad.
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/CQO0hzKFHiw?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+
 #### Python on iOS
 
 As part of a research project, I've [worked on](https://github.com/dennda/python-for-iphone) porting the [Python](http://python.org) programming language{% fn_ref 1 %} to iOS.
