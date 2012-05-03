@@ -64,8 +64,8 @@ I have co-authored two papers on this and related visualization techniques:
  * "An Exploration and Planning Tool for Neurosurgical Interventions", IEEE Visualization Contest 2010, Honorable Mention
 
 
-Multi-Touch
------------
+Multi-Touch & Human Computer Interaction
+----------------------------------------
 
 #### Medical Demo Installation
 
@@ -84,6 +84,16 @@ The following is the result of a relatively short (five week) research & develop
 The goal was to allow custom objects to be recognized without the use of active or passive markers, based solely on an object's contour.
 
 <iframe src="http://player.vimeo.com/video/19209891?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="200" height="150" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+#### Hand Recognition & Tracking
+
+As a fun experiment, I decided to implement a hand recognition and tracking algorithm.
+The input to the program was an image showing my hand. The output is the position of the finger tips, as well as the center of the palm.
+The following are two frames of a video (i.e. the algorithm operates on a video stream in real-time).
+
+{% img /portfolio/hand_to_track.png %}
+{% img /portfolio/hand_tracked.png %}
 
 
 Open Source
