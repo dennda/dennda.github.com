@@ -27,6 +27,14 @@ digital interactivity between multiple instances of the app on the network (stud
 Copyright 2012 Loma Linda University. Patent pending. Soon to be on the AppStore.
 
 
+#### Plausible Labs
+
+I'm working with the incredibly talented people at the [Plausible Labs Cooperative Inc.](http://plausiblelabs.com/) in New York City and San Francisco.
+For the most part, I've been adding features to their top-grossing (US) iPhone and iPad [Comics app](http://itunes.apple.com/us/app/comics/id303491945?mt=8)
+that they develop for [comiXology](http://www.comixology.com/).
+{% img http://a3.mzstatic.com/us/r1000/115/Purple/v4/1f/7a/4b/1f7a4b66-132c-0746-19ad-ef24fe36831d/mza_5548365772992360991.480x480-75.jpg %}
+
+
 #### Taposé
 
 Zanther Inc. develops the initially crowd-funded iPad application <a href="http://tapose.com">Taposé</a>.
