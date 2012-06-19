@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Past Project Portfolio - Christopher Denter</title>
+  <meta name="author" content="Christopher Denter">
+
+  
+  <meta name="description" content="Past Project Portfolio The following is a list of some of the projects I&#8217;ve worked on that I&#8217;m allowed to publicly talk about.
+The list &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://denter.org/portfolio">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Christopher Denter" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Christopher Denter</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:denter.org" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/portfolio/">Portfolio</a></li>
+  <li><a href="/hire/">Hire Me</a></li>
+  <!--<li><a href="/blog/archives">Archives</a></li>-->
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Past Project Portfolio</h1>
+    
+  </header>
+  
+  <p>The following is a list of some of the projects I&#8217;ve worked on that I&#8217;m allowed to publicly talk about.
+The list comprises projects in fields such as iOS development, medical visualization, custom multi-touch installations and open source.</p>
+
+<h2>iOS</h2>
+
+<h4>Medical Classrooms</h4>
+
+<p>For a client in California, I created an iOS app for medical classrooms.
+It performs real-time, three-dimensional rendering of medical volume data (CT, MRI) and allows for extensive
+digital interactivity between multiple instances of the app on the network (students and teachers are all equipped with iPads).</p>
+
+<p><img src="/portfolio/interface.png">
+<img src="/portfolio/users.png">
+<img src="/portfolio/classroom.jpg"></p>
+
+<p>Copyright 2012 Loma Linda University. Patent pending. Soon to be on the AppStore.</p>
+
+<h4>Taposé</h4>
+
+<p>Zanther Inc. develops the initially crowd-funded iPad application <a href="http://tapose.com">Taposé</a>.
+Originally developed by a Russian company, the code base grew to a massive size over time.
+I was recently contracted to help fix some of the lower-level issues and to make the app more usable on the original iPad.</p>
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/CQO0hzKFHiw?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+
+<h4>Python on iOS</h4>
+
+<p>As part of a research project, I&#8217;ve <a href="https://github.com/dennda/python-for-iphone">worked on</a> porting the <a href="http://python.org">Python</a> programming language<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup> to iOS.
+It allows using Python in any Objective-C application and <strong>does not</strong> require a jailbreak. Others have used this approach to great extent in their apps (which are available on the AppStore).</p>
+
+<h2>Medical Visualization</h2>
+
+<p>I&#8217;ve done some work in the field of medical visualization. The main challenge in this field is to make vast sets of data visually comprehensible.</p>
+
+<p>One such attempt is shown below, where I wrote an OpenGL-based program to help neurosurgeons understand nerves in the human brain better.
+The input to the program is a diffusion MRI scan of a person&#8217;s brain. You then select a region of the brain where you want to see the fibers,
+e.g. when planning a surgical removal of a tumor, in which you don&#8217;t want to damage brain nerves that are invisible once you &#8216;cut a patient open&#8217;.</p>
+
+<h4>Before</h4>
+
+<p><img src="/portfolio/primitive_fibers.png"></p>
+
+<h4>After</h4>
+
+<p><img src="/portfolio/nice_fibers.png">
+<img src="/portfolio/nice_fibers_ao.png"></p>
+
+<p>I have co-authored two papers on this and related visualization techniques:</p>
+
+<ul>
+<li>&#8220;Advanced Line Visualization For HARDI&#8221;, Bildverarbeitung f&uuml;r die Medizin (BVM) (2012)</li>
+<li>&#8220;An Exploration and Planning Tool for Neurosurgical Interventions&#8221;, IEEE Visualization Contest 2010, Honorable Mention</li>
+</ul>
+
+
+<h2>Multi-Touch &amp; Human Computer Interaction</h2>
+
+<h4>Medical Demo Installation</h4>
+
+<p>Another project I created has a medical component, too, but is more user interaction centric.
+It allows medical data to be displayed on custom multi-touch installations.
+This can be used in medical meetings, or for doctors to explain and demonstrate things to patients.
+The project was submitted to a CompVis competition and was awarded the first prize (30 projects total).</p>
+
+<p><img src="/portfolio/mark_bonetouch.JPG"></p>
+
+<iframe src="http://player.vimeo.com/video/13282333?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="200" height="112" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<h4>Markerless Object Recognition</h4>
+
+<p>The following is the result of a relatively short (five week) research &amp; development project for a company in Paris.
+The goal was to allow custom objects to be recognized without the use of active or passive markers, based solely on an object&#8217;s contour.</p>
+
+<iframe src="http://player.vimeo.com/video/19209891?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="200" height="150" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<h4>Hand Recognition &amp; Tracking</h4>
+
+<p>As a fun experiment, I decided to implement a hand recognition and tracking algorithm.
+The input to the program was an image showing my hand. The output is the position of the finger tips, as well as the center of the palm.
+The following are two frames of a video (i.e. the algorithm operates on a video stream in real-time).</p>
+
+<p><img src="/portfolio/hand_to_track.png">
+<img src="/portfolio/hand_tracked.png"></p>
+
+<h2>Open Source</h2>
+
+<p>I&#8217;ve also founded or contributed to a number of open source projects for custom multi-touch installations,
+such as <a href="http://movid.org">Movid</a>, <a href="http://kivy.org">Kivy</a>, <a href="http://pymt.eu">PyMT</a>, as well as web development,
+such as <a href="http://www.pocoo.org/projects/zine/#zine">Zine</a> and <a href="http://moinmo.in">MoinMoin</a>, and well-known projects such as <a href="http://ubuntu.com">Ubuntu</a>.</p>
+
+<p>I wrote several articles for the (commercial) UNIX print magazine <a href="http://www.cul.de/freex.html">freeX</a> as an independent author.</p>
+
+<p>I was accepted and successfully participated four consecutive times in Google&#8217;s annual SoC program, most recently for the <a href="http://nuigroup.com">Natural User Interface Group</a>.</p>
+
+<div class="footnotes">
+    <ol>
+        <li id='fn:1'>More specifically, version 2.7 of the CPython interpreter. <a href='#fnref:1' rev='footnote'>↩</a></li>
+    </ol>
+</div>
+
+
+
+
+  
+    <footer>
+      
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://denter.org/portfolio/index.html" data-via="cdntr" data-counturl="http://denter.org/portfolio/index.html" >Tweet</a>
+  
+  
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <img class="center" src="/images/smallface_gray.png" width="100" height="100">
+  <h1>About Me</h1>
+  <p>
+    I'm a software engineer and developer with <a href="/portfolio">experience in various fields</a>.
+    <br>
+    I hold a M.Sc. in a CompSci-related field that specializes on computer
+    graphics, computer vision, and things such as software design and aesthetics.
+    <br>
+    Currently my focus is on developing apps for iOS.
+    I'm <a href="/hire">available for hire</a>.
+  </p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/04/23/the-next-chapter/">The Next Chapter</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("cdntr", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/cdntr" class="twitter-follow-button" data-show-count="false">Follow @cdntr</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Christopher Denter -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
